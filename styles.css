@@ -1,0 +1,97 @@
+/* Reset básico */
+body, h1, h2, p, ul, li, a, div, footer, header, nav, section, audio {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+/* body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fce4ec;
+    color: #333; 
+} */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://i.pinimg.com/474x/cb/26/59/cb26598c80ef642f013b053ae9eddf3b.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Ajusta la imagen para que cubra todo el fondo */
+    background-position: center; /* Centra la imagen de fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    color: #333; /* Color de texto gris oscuro */
+}
+
+#contenedor {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+header {
+    background-color: #f8bbd0; /* Color de fondo rosa pastel */
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+
+header h1 {
+    color: #880e4f; /* Color de texto morado oscuro */
+}
+
+nav {
+    background-color: #f48fb1; /* Color de fondo rosa suave */
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* Color de texto blanco */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+#contenedor section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #ffebee; /* Color de fondo rosa muy claro */
+    border-radius: 5px;
+    min-height:90vh ;
+}
+
+section h2 {
+    color: #ad1457; /* Color de texto morado */
+}
+
+footer {
+    background-color: #f8bbd0; /* Color de fondo rosa pastel */
+    text-align: center;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+}
+
+footer p {
+    color: #880e4f; /* Color de texto morado oscuro */
+}
+
+.contenido {
+    margin: 10px 0;
+}
+
